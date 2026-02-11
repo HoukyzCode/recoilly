@@ -1,48 +1,63 @@
 # Recoilly 🎯
 
+<p align="center">
+  <img src="https://github.com/HoukyzCode/recoilly/blob/main/src-tauri/icons/recoilly.png" alt="Recoilly Logo" width="200" />
+</p>
+
 > **Master your spray control. Analyze your recoil. Perfect your aim.**
 
-**Recoilly** is a lightweight, high-performance desktop overlay designed for FPS players (CS2, Valorant, Apex Legends, etc.) who want to analyze and improve their recoil mechanics.
+<p align="center">
+  <img src="https://cdn.discordapp.com/attachments/742586395071086639/1469448230466228419/8C224D06-EF1B-423C-94E8-3284B8F402BC.png?ex=698cf7cf&is=698ba64f&hm=90901e5d54bd7332bb419146bd86382823b930b9962e61bef0555f8add200d26&" alt="Recoilly Demo" width="100%" />
+</p>
 
-Unlike generic crosshair overlays, Recoilly records your mouse movements in real-time, visualizes your spray pattern, and allows you to compare it against perfect "ghost" patterns using a precision difference viewer.
+<p align="center">
+  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" />
+  <img src="https://img.shields.io/badge/version-0.1.0--alpha-green" alt="Version" />
+  <img src="https://img.shields.io/badge/built%20with-Tauri%20%2B%20React-orange" alt="Tech Stack" />
+</p>
+
+---
+
+**Recoilly** is a lightweight, high-performance desktop overlay designed for FPS players (CS2, Valorant, Apex Legends, etc.) who want to analyze and improve their recoil mechanics.
 
 ---
 
 ## ✨ Features
 
-### 🔍 Precision Overlay
+### 🔍 Precision Overlay & Diff Viewer
+<p align="center">
+  <img src="https://cdn.discordapp.com/attachments/742586395071086639/1469448230910820465/1E24428E-A09B-4FE8-A19D-09038AF377D5.png?ex=698cf7cf&is=698ba64f&hm=33515f64cf08b65bf17f621145f077234d63ef78cb8ad056908ecabf17ceabe5&" alt="Diff Viewer Feature" width="600" />
+</p>
 
 * **Real-time Tracking:** Visualizes every "shot" (mouse click/movement) directly on your screen.
-* **Pixel-Perfect Zoom:** Built-in "Lens" feature that magnifies your crosshair area for pixel-perfect adjustments.
-* **Transparent & Click-through:** Designed to sit unobtrusively on top of your game window.
-
-### 📊 Pattern Analytics (Diff Viewer)
-
-* **Ghost Patterns:** Save your best attempts or import pro patterns to use as a "Ghost" reference.
+* **Pixel-Perfect Zoom:** Built-in "Lens" feature that magnifies your crosshair area.
 * **Visual Diff:** The "Diff Viewer" automatically overlays your current attempt (Green) against the saved master pattern (Red).
-* **Deviation Metrics:** Instantly see where your spray went off-track.
 
 ### 💾 Weapon Library
+<p align="center">
+  <img src="https://cdn.discordapp.com/attachments/742586395071086639/1469450412569657496/67771FEA-9703-41F5-8E35-9B16B90247DB.png?ex=698cf9d7&is=698ba857&hm=d3d0f35f5730f74e07939c925b6557411bb8b31f4793cafdf89c74e73fb7ad6b" alt="Weapon List" width="600" />
+</p>
 
-* **Database System:** Create, name, and save profiles for different weapons (e.g., AK-47, M4A1-S, MP5).
+* **Database System:** Create, name, and save profiles for different weapons.
 * **Quick Switch:** Hot-swap between patterns during practice sessions.
-
-### 🎨 Modern UI
-
-* **Gamer-Centric Design:** Dark mode by default, built with a sleek `zinc` and `emerald` palette.
-* **Interactive Minimap:** A draggable spray visualizer that stays out of your way.
 
 ---
 
 ## 🛠️ Tech Stack
 
-Recoilly is built with modern web technologies wrapped in a highly optimized Rust backend for minimal footprint.
+Recoilly is built with modern web technologies wrapped in a highly optimized Rust backend.
 
-* **Core:** [Tauri](https://tauri.app/) (Rust + Webview) for ultra-low memory usage.
-* **Frontend:** React + TypeScript.
-* **Styling:** Tailwind CSS + Framer Motion (animations).
-* **State:** Zustand.
-* **Linting:** Biome.
+* **Core:** [Tauri](https://tauri.app/) (Rust + Webview)
+* **Frontend:** React + TypeScript + Tailwind CSS
+* **State:** Zustand
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/yourusername/recoilly.git](https://github.com/yourusername/recoilly.git)
 
 ---
 
@@ -135,3 +150,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <p align="center">
 Built with ❤️ for the FPS community.
 </p>
+
