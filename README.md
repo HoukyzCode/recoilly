@@ -59,7 +59,7 @@ Recoilly is built with modern web technologies wrapped in a highly optimized Rus
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/yourusername/recoilly.git](https://github.com/yourusername/recoilly.git)
+   git clone [https://github.com/HoukyzCode/recoilly.git](https://github.com/yourusername/recoilly.git)
 
 ---
 
@@ -75,7 +75,7 @@ Recoilly is built with modern web technologies wrapped in a highly optimized Rus
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/recoilly.git
+git clone https://github.com/HoukyzCode/recoilly.git
 cd recoilly
 
 ```
@@ -152,5 +152,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <p align="center">
 Built with ❤️ for the FPS community.
 </p>
+
 
 
