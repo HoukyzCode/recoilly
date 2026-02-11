@@ -1,0 +1,55 @@
+{
+    "$schema": "https://schema.tauri.app/config/2",
+    "productName": "Recoilly",
+    "version": "0.1.0",
+    "identifier": "houkyzcode.recoilly",
+    "build": {
+        "beforeDevCommand": "bun run dev",
+        "devUrl": "http://localhost:1420",
+        "beforeBuildCommand": "bun run build",
+        "frontendDist": "../dist"
+    },
+    "app": {
+        "windows": [
+            {
+                "label": "main",
+                "title": "Recoilly",
+                "resizable": false,
+                "hiddenTitle": true,
+                "decorations": false,
+                "transparent": true,
+                "center": true,
+                "width": 1280,
+                "height": 720
+            },
+            {
+                "label": "overlay",
+                "url": "/overlay",
+                "visible": false,
+                "resizable": false,
+                "hiddenTitle": true,
+                "decorations": false,
+                "transparent": true,
+                "alwaysOnTop": true,
+                "fullscreen": true,
+                "skipTaskbar": true,
+                "width": 400,
+                "height": 600
+            }
+        ],
+        "security": {
+            "csp": null
+        }
+    },
+    "bundle": {
+        "active": true,
+        "targets": "all",
+        "icon": [
+            "icons/32x32.png",
+            "icons/128x128.png",
+            "icons/128x128@2x.png",
+            "icons/icon.png",
+            "icons/icon.ico"
+        ]
+    }
+}
